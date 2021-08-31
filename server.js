@@ -13,5 +13,9 @@ http.listen(PORT, function() { //3000番ポートでアクセスを待つ
 // GET リクエストを処理する
 // ===========================================================
 app.get(`/`, (req, res) => { 
-    res.sendFile(__dirname + '/views/index.html'); //"/"にアクセスがあったらindex.htmlを返却
+    res.sendFile(__dirname + '/views/index.html'); //"ルートに"にアクセスがあったらindex.htmlを返却
+  });
+
+  app.get(`/multiplayer`, (req, res) => {
+    res.sendFile(__dirname + '/views/multiplayer.html');
   });
