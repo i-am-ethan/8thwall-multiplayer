@@ -9,3 +9,8 @@ npm view socket.io
 npm install --save-dev socket.io@4.2.0
 npm install 依存関係
 ```
+
+## herokuと連携する
+```
+
+```
