@@ -7,6 +7,14 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- url遷移を行う -->
+    <button onclick="toMultiplayer"></button>
     <a href="./multiplayer.html">マルチプレイへ</a>
+    <script>
+        function toMultiplayer(){
+            let url = "https://" + location.hostname + "/multiplayer"
+            window.location.href = url;
+        }
+    </script>
 </body>
 </html>

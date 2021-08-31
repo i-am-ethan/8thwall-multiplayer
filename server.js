@@ -16,6 +16,6 @@ app.get(`/`, (req, res) => {
     res.sendFile(__dirname + '/views/index.html'); //"ルートに"にアクセスがあったらindex.htmlを返却
   });
 
-app.get(`/multiplayer.html`, (req, res) => {
+app.get(`/multiplayer`, (req, res) => {
   res.sendFile(__dirname + '/views/multiplayer.html');
 });
