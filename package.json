@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/i-am-ethan/8thwall-multiplayer/issues"
   },
-  "homepage": "https://github.com/i-am-ethan/8thwall-multiplayer#readme"
+  "homepage": "https://github.com/i-am-ethan/8thwall-multiplayer#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
 }
