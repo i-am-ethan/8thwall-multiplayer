@@ -17,9 +17,7 @@
     "url": "https://github.com/i-am-ethan/8thwall-multiplayer/issues"
   },
   "homepage": "https://github.com/i-am-ethan/8thwall-multiplayer#readme",
-  "devDependencies": {
-   
-  },
+  "devDependencies": {},
   "dependencies": {
     "express": "^4.17.1",
     "socket.io": "^4.2.0",

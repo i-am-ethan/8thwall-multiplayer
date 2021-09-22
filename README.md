@@ -10,6 +10,11 @@ npm install socket.io@4.2.0
 npm install 依存関係
 ```
 
+# heroku CLIのインストール
+```
+brew tap heroku/brew && brew install heroku
+```
+
 ## herokuと連携する
 ```
 heroku login (初回のみ)
